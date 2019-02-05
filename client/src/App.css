@@ -2,7 +2,7 @@ img {
   width: 90%;
 }
 footer{
-  position: relative;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -10,10 +10,10 @@ footer{
   padding: 10px;
 }
 .p-4 {
-  padding: 1em!important;
+  padding: 1.5em!important;
 }
 .mt-5 {
-  margin-top: 1em!important;
+  margin-top: 0.5em!important;
 }
 .landing {
   position: relative;
