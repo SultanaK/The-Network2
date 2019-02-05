@@ -2,12 +2,19 @@ img {
   width: 90%;
 }
 footer{
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
+  height: 1%!important;
+  padding: 10px;
 }
-
+.p-4 {
+  padding: 1em!important;
+}
+.mt-5 {
+  margin-top: 1em!important;
+}
 .landing {
   position: relative;
   background: url('./img/showcase.jpg') no-repeat;
