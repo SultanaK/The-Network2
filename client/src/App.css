@@ -39,6 +39,7 @@ h4, h5, h6 {
 
 .card-form {
   opacity: 0.9;
+
 }
 
 .latest-profiles-img {
@@ -47,5 +48,5 @@ h4, h5, h6 {
 }
 
 .form-control::placeholder {
-  color: #bbb !important;
+  color: lightblue !important;
 }
