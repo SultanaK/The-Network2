@@ -13,7 +13,7 @@ class CreateProfile extends Component {
     super(props);
     this.state = {
       displaySocialInputs: false,
-      handle: '',
+      name: '',
       company: '',
       website: '',
       location: '',
@@ -148,7 +148,7 @@ class CreateProfile extends Component {
                 <TextFieldGroup
                   placeholder="* Profile Handle"
                   name="handle"
-                  value={this.state.handle}
+                  value={this.state.name}
                   onChange={this.onChange}
                   error={errors.handle}
                   info="A unique handle for your profile URL. Your full name, company name, nickname"

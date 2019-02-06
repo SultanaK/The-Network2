@@ -20,9 +20,14 @@ footer{
 .landing-inner {
   padding-top: 80px;
 }
+h1, h2, h3 {
+  text-align: center;
+  color: darkcyan;
+}
 
-
-
+h4, h5, h6 {
+  text-align: center;
+}
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
