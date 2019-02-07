@@ -220,7 +220,7 @@ class CreateProfile extends Component {
                         displaySocialInputs: !prevState.displaySocialInputs
                       }));
                     }}
-                    className="btn btn-light"
+                    className="btn btn-primary"
                   >
                     Add Social Network Links
                   </button>
@@ -230,7 +230,7 @@ class CreateProfile extends Component {
                 <input
                   type="submit"
                   value="Submit"
-                  className="btn btn-info btn-block mt-4"
+                  className="btn btn-primary btn-block mt-4"
                 />
               </form>
             </div>
