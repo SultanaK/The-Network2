@@ -148,7 +148,7 @@ class CreateProfile extends Component {
                 <TextFieldGroup
                   placeholder="Name"
                   name="handle"
-                  value={this.state.name}
+                  value={this.state.handle}
                   onChange={this.onChange}
                   error={errors.handle}
                   info="A unique handle for your profile URL. Your full name, company name, nickname"
